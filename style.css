@@ -1,0 +1,13 @@
+.bg-image {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: auto;
+}
+
+.header-style {
+    font-weight: 500;
+    flood-color: white;
+    justify-content: center;
+    text-decoration: none;
+}
