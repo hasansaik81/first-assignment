@@ -1,38 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.bg-image {
-    background-image: url(images/donation1.jpg);
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 669px;
-    justify-content: center;
-}
-
-.header-style {
-    font-weight: 600;
-    color: white;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.taka {
-    display: flex;
-    font-weight: 500;
-}
-
-.taka-amount {
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.donate-0 {
-    width: 1440px;
-}
-
-.donate-1 {
-    width: 40%;
-}
+            * {
+                box-sizing: border-box;
+            }
+            
+            .bg-image {
+                background-image: url(images/donation1.jpg);
+                background-repeat: no-repeat;
+                font-weight: 600;
+                color: white;
+                width: 1440px;
+                height: 400px;
+                margin-left: 300px;
+            }
+            
+            .bg-image .bg-text {
+                position: relative;
+                width: 300px;
+                text-align: center;
+                margin-left: 200px;
+                margin-top: 30px;
+            }
+            
+            .donate {
+                width: 500px;
+                margin-left: 200px;
+                padding: 30px;
+                text-align: center;
+            }
+            
+            .donate .taka {
+                display: flex;
+                justify-content: space-around;
+            }
